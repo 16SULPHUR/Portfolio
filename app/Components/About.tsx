@@ -27,7 +27,7 @@ function About() {
                         About Me
                     </div>
 
-                    <div className="heading w-full font-extrabold text-2xl">
+                    <div className="heading w-full font-bold text-3xl">
                         A dedicated Fullstack Developer
                         based in Surat, Gujarat 📍
                     </div>
