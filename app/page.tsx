@@ -3,21 +3,25 @@ import Header from './Components/Header'
 import Hero from './Components/Hero'
 import TechStack from './Components/TechStack'
 import About from './Components/About'
+import PersonalProjects from './Components/PersonalProjects'
 
 
 export default function Home() {
   return (
-    <main className="mt-36 font-PlayfairDisplay">
-      <Header/>
-      <section id='#home'>
-      <Hero/>
+    <main className="font-PlayfairDisplay">
+      <Header />
+      <section className='pt-36' id='home'>
+        <Hero />
+        <TechStack />
       </section>
-      <section>
-      <TechStack/>
+
+      <section className='py-36' id='about'>
+        <About />
       </section>
-      
-      <section className='my-56' id='#about'>
-      <About/>
+
+
+      <section className='py-28' id='projects'>
+        <PersonalProjects />
       </section>
     </main>
   )

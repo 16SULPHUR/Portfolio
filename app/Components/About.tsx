@@ -23,7 +23,7 @@ function About() {
                 </div>
 
                 <div className="about-text flex flex-col w-full gap-8 justify-center sm:text-start text-center">
-                    <div className="about-heading font-bold text-lg sm:self-start self-center">
+                    <div className="about-heading font-bold text-xl sm:self-start self-center font-Mulish">
                         About Me
                     </div>
 
