@@ -120,6 +120,9 @@ body {
 .about{
   width: 70rem;
 
+  @media (max-width: 900px) {
+    width: 20rem;
+  }
 }
 
 .about-img {
