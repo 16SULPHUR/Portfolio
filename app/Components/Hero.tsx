@@ -4,22 +4,22 @@ import Image from 'next/image'
 const Hero = () => {
     return (
         <>
-            <div className='hero w-fit mx-auto mt-6'>
+            <div className='hero w-fit mx-auto mt-6 mb-20'>
                 <div className="hero-main flex sm:flex-row flex-col-reverse items-center">
                     <div className="hero-text flex flex-col pt-9 w-fit">
                         <div className="header relative">
                             <div className='header-text font-bold break-words sm:w-7/12'>
-                                Fullstack Web Developer
+                            Full-Stack Web Developer 👋
                             </div>
-                            <Image
+                            {/* <Image
                                 className=''
                                 src={"/waving-hand.png"}
                                 alt='waving hand'
                                 width={60}
                                 height={60}
-                            />
+                            /> */}
                             <p className='break-words sm:text-left text-center mt-12 text-lg text-gray-500 '>
-                                Hi, I'm Ankit Patil. A passionate Fullstack Developer based in Surat, Gujarat. 📍
+                                Hi, I'm Ankit Patil. A passionate Full-Stack Developer based in Surat, Gujarat. 📍
                             </p>
                             <div className='flex gap-7 sm:justify-start justify-center w-full mt-12'>
                                 <a aria-label="linkedin" rel="noreferrer" target="_blank" href="https://www.linkedin.com/in/ankit-patil-67ab29240"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#898989" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="tabler-icon tabler-icon-brand-linkedin"><path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z"></path><path d="M8 11l0 5"></path><path d="M8 8l0 .01"></path><path d="M12 16l0 -5"></path><path d="M16 16v-3a2 2 0 0 0 -4 0"></path></svg></a>
@@ -34,8 +34,9 @@ const Hero = () => {
                         <Image
                             src={"/me.jpg"}
                             alt='hero-img'
-                            width={300}
-                            height={300}
+                            width={350}
+                            height={350}
+                            className='sm:w-72 w-56'
                         />
                     </div>
                 </div>

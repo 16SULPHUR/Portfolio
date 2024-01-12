@@ -8,6 +8,10 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        PlayfairDisplay: ['Poppins', 'sans-serif'],
+        Mulish: ['Mulish','sans-serif'],
+       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':

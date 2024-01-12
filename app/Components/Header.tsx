@@ -16,10 +16,10 @@ const Header = () => {
 
                     <div className="links sm:block hidden">
                         <ul className='flex gap-7 font-semibold text-lg'>
-                            <li><Link href={"#home"}>Home</Link></li>
-                            <li><Link href={"#about"}>About</Link></li>
-                            <li><Link href={"#projects"}>Projects</Link></li>
-                            <li><Link href={"#contact"}>Contact</Link></li>
+                            <li className='header-links'><Link href={"#home"}>Home</Link></li>
+                            <li className='header-links'><Link href={"#about"}>About</Link></li>
+                            <li className='header-links'><Link href={"#projects"}>Projects</Link></li>
+                            <li className='header-links'><Link href={"#contact"}>Contact</Link></li>
                         </ul>
                     </div>
 
