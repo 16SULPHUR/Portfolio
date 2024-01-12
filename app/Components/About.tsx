@@ -32,7 +32,7 @@ function About() {
                         based in Surat, Gujarat 📍
                     </div>
 
-                    <div className="about-desc text-lg text-gray-500 leading-relaxed font-Mulish">
+                    <div className="about-desc text-lg text-gray-500 leading-relaxed font-Mulish sm:text-justify">
                         As a Full-Stack Developer, I specialize in React.js, Next.js, Node.js, and PHP, complemented by skills in MongoDB, MySQL, Tailwind CSS, and Bootstrap. My proficiency extends from crafting dynamic and responsive front-end interfaces to building scalable server-side applications. Committed to writing clean, optimized code, I collaborate seamlessly with cross-functional teams, ensuring the delivery of outstanding web applications that provide a compelling user experience.
                     </div>
                 </div>
