@@ -1,5 +1,7 @@
 import React from 'react'
 import ProjectSMS from './ProjectSMS'
+import ProjectPH from "./ProjectPH"
+import ProjectAndroid from "./ProjectAndroid"
 
 const PersonalProjects = () => {
     return (
@@ -18,6 +20,8 @@ const PersonalProjects = () => {
                 </div>
 
                 <ProjectSMS />
+                <ProjectPH/>
+                <ProjectAndroid/>
             </div>
         </>
     )
