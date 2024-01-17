@@ -17,10 +17,10 @@ const ProjectSMS = () => {
                 <div className="project-info py-3 px-5 flex flex-col sm:gap-8 gap-10">
                     <div className="project-text flex flex-col gap-5">
                         <div className="project-title text-2xl font-bold text-center">
-                            PhotoHub: Image Hosting WebApp
+                            Purely: Environmentally Friendly Shopping Assistant
                         </div>
                         <div className="project-title text-lg font-Mulish text-gray-500 text-center">
-                            Elevate your image hosting experience with PhotoHub. Seamlessly upload and manage your images using diverse methods and portals. Secure your content with personalized authentication, ensuring a private environment for your valuable images.
+                        Consciously shop with this assistant. Scan product barcodes to access sustainability information. Enhance details with your own input for a more informed choice.
 
                         </div>
                     </div>
@@ -38,7 +38,7 @@ const ProjectSMS = () => {
                             height={40}
                         />
                         <Image
-                            src={"icon-xml.svg"}
+                            src={"icon-node-only.svg"}
                             alt='tailwind'
                             width={40}
                             height={40}
