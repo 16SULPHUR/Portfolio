@@ -17,8 +17,8 @@ const ContactMe = () => {
     return (
         <>
 
-            <section className="text-gray-600 body-font relative mx-20 my-16 shadow-2xl">
-                <div className="absolute inset-0 bg-gray-300">
+            <section className="text-gray-600 body-font relative sm:mx-20 sm:my-16 shadow-2xl">
+                <div className="absolute inset-0 bg-gray-300 sm:block hidden">
                     <iframe style={{ "filter": "grayscale(-1.9) contrast(1.2) opacity(0.4)" }} title="map" scrolling="no" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14883.314352667114!2d72.875017!3d21.1592188!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04f25a7dbf5af%3A0x1f2cee5f3254a480!2sVariety%20Heaven!5e0!3m2!1sen!2sin!4v1705509894032!5m2!1sen!2sin " width="100%" height="100%"></iframe>
 
                     {/* <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14883.314352667114!2d72.875017!3d21.1592188!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04f25a7dbf5af%3A0x1f2cee5f3254a480!2sVariety%20Heaven!5e0!3m2!1sen!2sin!4v1705509894032!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> */}
@@ -63,7 +63,6 @@ const ContactMe = () => {
                         </form>
                         <p className="text-xs text-gray-500 mt-3"></p>
                     </div>
-                    );
                 </div>
             </section>
 
