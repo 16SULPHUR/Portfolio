@@ -1,6 +1,7 @@
 'use client';
 import React from 'react'
 import Link from 'next/link'
+import Image from 'next/image';
 import { useState } from 'react';
 const Header = () => {
     const [mobileLinksClassNames, setMobileLinksClassNames] = useState<boolean>(true);
@@ -11,7 +12,9 @@ const Header = () => {
             <nav className='navbar bg-white py-6 px-12 shadow-sm w-full'>
                 <div className="flex justify-between">
                     <Link href={"/"}>
-                        <div className="logo font-semibold text-2xl">ankit.dev</div>
+                        <div className="logo font-semibold text-2xl">
+                            Ankit Patil
+                            </div>
                     </Link>
 
                     <div className="links sm:block hidden">
