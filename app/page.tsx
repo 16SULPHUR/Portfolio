@@ -4,6 +4,7 @@ import Hero from './Components/Hero'
 import TechStack from './Components/TechStack'
 import About from './Components/About'
 import PersonalProjects from './Components/PersonalProjects'
+import ContactMe from './Components/ContactMe'
 
 
 export default function Home() {
@@ -22,6 +23,10 @@ export default function Home() {
 
       <section className='py-28' id='projects'>
         <PersonalProjects />
+      </section>
+      
+      <section className='pt-' id='contact'>
+        <ContactMe />
       </section>
     </main>
   )
