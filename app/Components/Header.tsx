@@ -33,10 +33,10 @@ const Header = () => {
 
                 <div className={mobileLinksClassName}>
                     <ul className='flex flex-col gap-7 font-semibold text-lg items-center'>
-                        <li><Link href={"#home"}>Home</Link></li>
-                        <li><Link href={"#about"}>About</Link></li>
-                        <li><Link href={"#projects"}>Projects</Link></li>
-                        <li><Link href={"#contact"}>Contact</Link></li>
+                        <li onClick={() => { setMobileLinksClassNames((prevDisplay) => !prevDisplay); }}><Link href={"#home"}>Home</Link></li>
+                        <li onClick={() => { setMobileLinksClassNames((prevDisplay) => !prevDisplay); }}><Link href={"#about"}>About</Link></li>
+                        <li onClick={() => { setMobileLinksClassNames((prevDisplay) => !prevDisplay); }}><Link href={"#projects"}>Projects</Link></li>
+                        <li onClick={() => { setMobileLinksClassNames((prevDisplay) => !prevDisplay); }}><Link href={"#contact"}>Contact</Link></li>
                     </ul>
                 </div>
             </nav>

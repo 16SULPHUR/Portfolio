@@ -12,7 +12,7 @@ export default function Home() {
     <main className="font-PlayfairDisplay">
       <Header />
       <section className='pt-36' id='home'>
-        <Hero />
+        <Hero />      
         <TechStack />
       </section>
 
@@ -28,6 +28,11 @@ export default function Home() {
       <section className='pt-' id='contact'>
         <ContactMe />
       </section>
+
+      {/* <div className="badge-base LI-profile-badge" data-locale="en_US" data-size="large" data-theme="dark" data-type="HORIZONTAL" data-vanity="iankitpatil" data-version="v1"><a className="badge-base__link LI-simple-link" href="https://in.linkedin.com/in/iankitpatil?trk=profile-badge">Ankit Patil</a></div>
+              
+
+      <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script> */}
     </main>
   )
 }
