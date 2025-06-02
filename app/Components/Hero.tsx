@@ -26,7 +26,11 @@ const Hero = () => {
 
                                 <div className='flex flex-col gap-3 rounded-lg'>
                                     <h3 className='text-2xl font-semibold text-gray-500'>Resume</h3>
-                                    <a className="resume-link" aria-label="resume" rel="noreferrer" target="_blank" href="https://docs.google.com/document/d/1dfYQ6ofAofAWVearyCpiZZYFX_fdWWo79mHebglS5cU/edit?usp=sharing">
+                                    <a className="resume-link" aria-label="resume" rel="noreferrer" target="_blank" 
+                                    href="/Resume"
+                                    // href="https://docs.google.com/document/d/1dfYQ6ofAofAWVearyCpiZZYFX_fdWWo79mHebglS5cU/edit?usp=sharing"
+                                    
+                                    >
                                         <svg width="30" height="31" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="resume-icon">
                                             <path className="resume-icon-path" d="M3 10C3 6.22876 3 4.34315 4.17157 3.17157C5.34315 2 7.22876 2 11 2H13C16.7712 2 18.6569 2 19.8284 3.17157C21 4.34315 21 6.22876 21 10V14C21 17.7712 21 19.6569 19.8284 20.8284C18.6569 22 16.7712 22 13 22H11C7.22876 22 5.34315 22 4.17157 20.8284C3 19.6569 3 17.7712 3 14V10Z" stroke="#898989" strokeWidth="2" />
                                             <path className="resume-icon-path" d="M8 12H16" stroke="#898989" strokeWidth="2" strokeLinecap="round" />
