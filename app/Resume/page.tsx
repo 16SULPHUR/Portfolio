@@ -8,5 +8,5 @@ export default function Home() {
         window.location.href = "https://media.varietyheaven.in/resume/Ankit Patil Resume .pdf";
     }, []);
 
-    return null
+    return "https://media.varietyheaven.in/resume/Ankit Patil Resume .pdf"
 }
