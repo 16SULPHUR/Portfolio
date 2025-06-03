@@ -8,15 +8,5 @@ export default function Home() {
         window.location.href = "https://media.varietyheaven.in/resume/Ankit Patil Resume .pdf";
     }, []);
 
-    return 
-    (
-        <main>
-            <iframe
-                width="100%"
-                height="700"
-                src="https://media.varietyheaven.in/resume/Ankit Patil Resume .pdf"
-                style={{ border: "1px solid black" }}
-            ></iframe>
-        </main>
-    ); // nothing is rendered since we're redirecting
+    return null
 }
