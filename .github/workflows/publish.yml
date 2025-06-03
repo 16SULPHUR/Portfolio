@@ -22,16 +22,17 @@ jobs:
         run: npm install
 
       - name: Build the project
-        run: npm run build
+        run: npm run build # This will now also handle the export to the 'out' directory
 
-      - name: Export static site
-        run: npm run export # only if you're using `next export`
+      # REMOVE THIS STEP - IT'S NO LONGER NEEDED AND CAUSES THE ERROR
+      # - name: Export static site
+      #   run: npm run export # only if you're using `next export`
 
       - name: Push to build branch
         uses: s0/git-publish-subdir-action@develop
         env:
           REPO: self
           BRANCH: build
-          FOLDER: out # use `.next` for SSR build or `out` for static export
+          FOLDER: out # This is correct, as `next build` with `output: 'export'` will place files here
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           MESSAGE: "Build: ({sha}) {msg}"
